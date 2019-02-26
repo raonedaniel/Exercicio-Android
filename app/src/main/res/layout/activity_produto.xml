@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ActivityProduto">
+
+    <EditText
+        android:id="@+id/edtNomeProduto"
+        android:hint="Nome:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></Spinner>
+    
+    <EditText
+        android:id="@+id/edtQuantidadeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:hint="Quantidade desejada:"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></Spinner>
+    
+    <EditText
+        android:id="@+id/edtPrecoProduto"
+        android:hint="Preço do Produto:"
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content" />
+    
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="25dp"></Spinner>
+    
+    <Button
+        android:id="@+id/btnSalvarProduto"
+        android:layout_width="match_parent"
+        android:text="Salvar"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
