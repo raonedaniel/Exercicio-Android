@@ -8,6 +8,18 @@
     tools:context=".activities.ActivityProduto">
 
     <EditText
+        android:id="@+id/edtIdProduto"
+        android:hint="Codigo de barras:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="10dp"></Spinner>
+
+
+    <EditText
         android:id="@+id/edtNomeProduto"
         android:hint="Nome:"
         android:layout_width="match_parent"
